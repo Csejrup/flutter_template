@@ -10,14 +10,13 @@
 .svn/
 migrate_working_dir/
 *.env
+.env.dev
+.env.prod
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
-.env.g.dart
-.env.dev
-.env.prod
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
