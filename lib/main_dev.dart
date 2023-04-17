@@ -8,7 +8,7 @@ import 'src/configs/app_config.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: '.env.dev');
+  await dotenv.load(fileName: './vars/.env.dev');
 
   // await initializeDependencies();
   await Supabase.initialize(
