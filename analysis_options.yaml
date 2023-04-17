@@ -1,0 +1,19 @@
+include: package:lint/analysis_options.yaml
+
+# Not happy with the default? Customize the rules depending on your needs. 
+# Here are some examples:
+analyzer:
+  exclude:
+    - /**/*.g.dart
+linter:
+  rules:
+    sort_constructors_first: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    avoid_redundant_argument_values: true
+    prefer_single_quotes: true
+    prefer_relative_imports: false
+    depend_on_referenced_packages: false
+    library_private_types_in_public_api: false
+    use_build_context_synchronously: false
+    avoid_classes_with_only_static_members: false
