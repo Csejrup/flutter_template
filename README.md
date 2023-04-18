@@ -1,11 +1,10 @@
-# eeg_tracker
-
-A new Flutter project.
-
+# Flutter Template
 
 
 
 ## Setup
+This template uses flavors to switch between different environments for the utilization of different Supabase projects. 
+Create a "vars" folder in root and create your .env files for dev, stage and prod environments
 
 Run 'flutter pub run build_runner build'
 

@@ -38,13 +38,13 @@ android {
     productFlavors {
         dev {
             dimension "env"
-            resValue "string", "app_name", "[DEV] Tracker"
+            resValue "string", "app_name", "[DEV] Name" //Insert your app name here
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
         }
         prod {
             dimension "env"
-            resValue "string", "app_name", "Tracker"
+            resValue "string", "app_name", "name" //Insert your app name here
             dimension "flavor-type"
         }
     }    
@@ -58,7 +58,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.example.eeg_tracker"
+        applicationId "com.example.flutter_template"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion flutter.minSdkVersion

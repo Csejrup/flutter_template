@@ -1,4 +1,4 @@
-import 'package:eeg_tracker/main_dev.dart';
+import 'package:flutter_template/main_dev.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {

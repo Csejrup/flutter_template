@@ -1,4 +1,4 @@
-package com.example.eeg_tracker
+package com.example.flutter_template
 
 import io.flutter.embedding.android.FlutterActivity
 
