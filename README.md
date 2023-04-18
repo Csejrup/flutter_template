@@ -53,7 +53,8 @@ import 'package:auto_route/auto_route.dart';
 class $AppRouter {}
 
 
-// Then in your code, you can navigate to a page by calling pushNamed:\nNavigator.pushNamed(context, '/details/1');\n```
+// Then in your code, you can navigate to a page by calling pushNamed:\nNavigator.pushNamed(context, '/details/1');
+```
 
 Remember to replace HomePage, DetailsPage, and SettingsPage with your own widget classes. Also, note that you can pass parameters to your routes by using the : syntax in the path. When generating the router, the : will be replaced by a named parameter. 
 
