@@ -55,8 +55,11 @@ class $AppRouter {}
 
 // Then in your code, you can navigate to a page by calling pushNamed:\nNavigator.pushNamed(context, '/details/1');
 ```
-
 Remember to replace HomePage, DetailsPage, and SettingsPage with your own widget classes. Also, note that you can pass parameters to your routes by using the : syntax in the path. When generating the router, the : will be replaced by a named parameter. 
-
-
 To generate the router, run the command flutter packages pub run build_runner build in your terminal. This will generate a router.gr.dart file that you can import and use in your project.
+
+# License
+
+This application is released under the [MIT license](LICENSE). You can use the code for any purpose, including commercial projects.
+
+[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
