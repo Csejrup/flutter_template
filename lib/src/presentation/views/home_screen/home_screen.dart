@@ -14,15 +14,16 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          leading: GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            // onTap: () => appRouter.pop(),
-            child: const Icon(Ionicons.chevron_back, color: Colors.black),
-          ),
+      appBar: AppBar(
+        leading: GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          // onTap: () => appRouter.pop(),
+          child: const Icon(Ionicons.chevron_back, color: Colors.black),
         ),
-        body: SingleChildScrollView(
-          child: Container(color: Colors.yellowAccent),
-        ));
+      ),
+      body: SingleChildScrollView(
+        child: Container(color: Colors.yellowAccent),
+      ),
+    );
   }
 }
