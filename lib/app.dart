@@ -1,9 +1,5 @@
-import 'package:flutter_template/main_dev.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_template/src/presentation/views/home_screen/home_screen.dart';
-
-import 'src/configs/theme/app_theme.dart';
-
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
